@@ -7,7 +7,7 @@ def queensAttack(n, k, r_q, c_q, obstacles):
         r_q (int): The row position of the queen (1-indexed).
         c_q (int): The column position of the queen (1-indexed).
         obstacles (List[List[int]]): A list of obstacles, each represented as [row, column].
-    Returns:
+    Returns:k
         int: The total number of squares the queen can attack.
     The function considers all 8 possible directions the queen can move (horizontal, vertical, and diagonal)
     and counts the number of squares she can attack, stopping at obstacles or the edge of the board.
